@@ -1,14 +1,36 @@
-.content-wrapper {
-  border: 2px solid lightcoral;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+p,
+div,
+a,
+li,
+label,
+input,
+textarea {
+  font-family: "Roboto Mono", monospace;
+}
+.hero-content-wrapper {
+  border: 2px solid lightcoral;
+  width: 1200px;
   display: grid;
+  margin: 0 auto;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "nav-content nav-content"
     "left-column right-column";
 }
 
-.content-wrapper div {
+.hero-content-wrapper div {
   border: 2px solid lightcoral;
 }
 
@@ -22,4 +44,10 @@
 
 .right-column {
   grid-area: right-column;
+}
+
+@media (max-width: 1200px) {
+  .hero-content-wrapper {
+    width: 95%;
+  }
 }
