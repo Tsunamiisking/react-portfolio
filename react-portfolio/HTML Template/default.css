@@ -1,0 +1,25 @@
+.content-wrapper {
+  border: 2px solid lightcoral;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "nav-content nav-content"
+    "left-column right-column";
+}
+
+.content-wrapper div {
+  border: 2px solid lightcoral;
+}
+
+.nav-content {
+  grid-area: nav-content;
+}
+
+.left-column {
+  grid-area: left-column;
+}
+
+.right-column {
+  grid-area: right-column;
+}
