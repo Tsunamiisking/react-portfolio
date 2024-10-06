@@ -8,8 +8,7 @@ import {
 import MainPage from './pages/MainPage';
 
 function App() {
-
-
+  
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={< MainPage />}>

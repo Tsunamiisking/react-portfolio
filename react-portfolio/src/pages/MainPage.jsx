@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
+import Hero from "../components/Hero";
 
 const MainPage = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <Hero />;
+};
 
-export default MainPage
+export default MainPage;
