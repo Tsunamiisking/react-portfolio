@@ -5,10 +5,10 @@ const Hero = () => {
   return (
     <>
     <Intro >
-        Hello World
+        Hello World!
     </Intro>
     <section>
-        <div className="grid grid-cols-2 w-11/12 border-2 border-lightcoral ml-auto mr-auto">
+        <div className="font-roboto grid grid-cols-2 w-11/12 border-2 border-lightcoral ml-auto mr-auto">
           <div className="grid grid-cols-2 justify-between col-span-2 border-2 border-lightcoral pt-2 pb-2 ">
             <div className="nav-left flex items-center content-center pl-2">
               <div className="mr-1 w-4 h-4 bg-red-500 rounded-full"></div>
