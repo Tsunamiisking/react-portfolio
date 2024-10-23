@@ -19,7 +19,7 @@ input,
 textarea {
   font-family: "Roboto Mono", monospace;
 }
-.hero-content-wrapper {
+.intro-wrapper {
   border: 2px solid lightcoral;
   width: 1200px;
   display: grid;
@@ -30,12 +30,15 @@ textarea {
     "left-column right-column";
 }
 
-.hero-content-wrapper div {
+.intro-wrapper div {
   border: 2px solid lightcoral;
 }
 
 .nav-content {
   grid-area: nav-content;
+  justify-content: space-between;
+  padding: 10px 5px;
+
 }
 
 .left-column {
@@ -45,9 +48,45 @@ textarea {
 .right-column {
   grid-area: right-column;
 }
+ul {
+  list-style: none;
+  display: flex;
+}
+ul li {
+  padding: 0 10px;
+}
+.nav-content .colors{
+  display: flex;
+}
+
+.nav-content .colors div{
+  margin: 5px 5px;
+  border: none;
+}
+
+
+
+.yellow{
+  background-color: yellow;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+.red{
+  background-color: red;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+.green{
+  background-color: green;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
 
 @media (max-width: 1200px) {
-  .hero-content-wrapper {
+  .intro-wrapper {
     width: 95%;
   }
 }
